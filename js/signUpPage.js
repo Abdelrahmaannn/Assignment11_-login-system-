@@ -96,7 +96,7 @@ function emailValidation() {
 
 password.addEventListener("change", passwordValidation);
 function passwordValidation() {
-  var regex = /^[0-9a-zA-Z]{8,10}$/;
+  var regex = /^[0-9a-zA-Z#_]{8,10}$/;
 
   if (regex.test(password.value) == true) {
     password.classList.add("is-valid");
