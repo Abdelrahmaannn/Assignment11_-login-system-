@@ -1,0 +1,242 @@
+body
+{
+    background-color: #F5F5FA;
+}
+
+
+.for-image
+{
+
+    padding-bottom: 37px;
+}
+
+.for-image h1
+{
+    font-size: 40px;
+    color: #345DCC;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.hero img
+{
+    filter: drop-shadow(8px 8px 180px #345DCC);
+}
+
+
+
+.for-form h2 
+{
+
+    font-size: 28px;
+    color: #345DCC;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 40px;
+}
+
+.for-form h4 
+{
+
+    font-size: 16px;
+    color: #345DCC;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 45px;
+    padding-top: 15px;
+
+}
+
+label
+{
+    margin-left: 80px;
+    padding-bottom: 2px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.for-form input:focus
+{
+    box-shadow: 0px 0px 0px 0px;
+    border-color: #3498db;
+}
+
+.my-form
+{
+    background-color: #EDF2F7 ;
+    
+}
+
+.for-form h6
+{
+    font-size: 11px;
+    color: #718096;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.for-form input[type="checkbox"]
+{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.check-box-label
+{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+    margin-top: 20;
+    margin-left: 5px;
+    color: #425466;
+}
+
+.for-form span
+{
+    font-weight: 700;
+}
+
+.for-form .my-btn
+{
+    background-color: #345DCC;
+    padding: 10px 150px;
+    border-radius: 600px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 60px;
+    transition: all 0.3s;
+
+}
+
+.for-form .my-btn:hover
+{
+    background-color: #1c40a2;
+}
+
+.another-way-sign-up
+{
+    margin-top: 40px;
+}
+
+.another-way-sign-up h6
+{
+    color: #718096;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    margin-right: 70px;
+}
+
+.icons-sign-up
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 30px;
+    color: #345DCC;
+    box-shadow: 1px 1px 10px rgb(139, 139, 139);
+    transition: all 0.3s;
+}
+
+.icon:hover
+{
+    background-color: #345DCC;
+    color: white;
+}
+
+.to-login
+{
+    color: #718096;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.to-login a
+{
+    text-decoration: none;
+    color: #345DCC;
+
+}
+
+#layer
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#innerBox
+{
+
+    background-color: white;
+    text-align: center;
+    padding: 90px;
+    margin-bottom: 100px;
+    border: solid 2px #345DCC ;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+#innerBox p
+{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#innerBox img
+{
+    width: 50%;
+}
+
+.coustom-btn
+{
+    background-color: #345DCC;
+    padding: 10px 100px;
+    border-radius: 600px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.coustom-btn:hover
+{
+    background-color: #1c40a2;
+    color: white;
+}
+
+#innerBox i
+{
+    color: #345DCC;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor:pointer;
+}

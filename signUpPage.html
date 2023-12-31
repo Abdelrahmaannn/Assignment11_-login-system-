@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/signUpPage.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link
+      rel="shortcut icon"
+      href="images/Logo transperent 1.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 for-image">
+          <div class="logo mt-md-3">
+            <img src="images/Logo transperent 1.png" alt="logo" />
+          </div>
+
+          <h1>
+            Your Journey Is About To <br />
+            Start!!
+          </h1>
+
+          <div class="text-center hero">
+            <img class="w-50 pt-3" src="images/woolly-success-1 1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-md-6 for-form mt-3">
+          <div class="mt-4 ms-5">
+            <h2>Create your account</h2>
+            <h4>It’s free and easy</h4>
+          </div>
+
+          <form class="mt-5">
+            <label for="fullName"> Full Name</label>
+            <input
+              class="form-control my-form w-75 mx-auto"
+              type="text"
+              id="fullName"
+              required
+              placeholder="Enter your name"
+            />
+            <div
+              id="warningName"
+              class="d-none bg-danger-subtle p-2 w-75 mx-auto"
+            >
+              please Enter Valid Name
+            </div>
+
+            <label for="email" class="mt-4"> E-mail or phone number</label>
+            <input
+              class="form-control my-form w-75 mx-auto"
+              type="email"
+              id="email"
+              required
+              placeholder="Type your e-mail or phone number"
+            />
+            <div
+              id="warningEmail"
+              class="d-none bg-danger-subtle p-2 w-75 mx-auto"
+            >
+              please Enter Valid Email
+            </div>
+
+            <label for="password" class="mt-4">Password</label>
+            <input
+              class="form-control my-form w-75 mx-auto"
+              type="password"
+              id="password"
+              required
+              placeholder="Type your password"
+            />
+            <div
+              id="warningPassword"
+              class="d-none bg-danger-subtle p-2 w-75 mx-auto"
+            >
+              please Enter Valid Password
+            </div>
+            <h6>Must be 8 characters at least</h6>
+
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label
+              class="form-check-label check-box-label"
+              for="flexCheckDefault"
+            >
+              By creating an account means you agree to the
+              <span>Terms and Conditions,</span> and our
+              <span>Privacy Policy</span>
+            </label>
+
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn my-btn">Sign Up</button>
+            </div>
+          </form>
+
+          <div class="text-center another-way-sign-up">
+            <h6>or do it via other accounts</h6>
+
+            <div class="icons-sign-up">
+              <div
+                class="icon d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-brands fa-google"></i>
+              </div>
+
+              <div
+                class="icon d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-brands fa-apple"></i>
+              </div>
+
+              <div
+                class="icon d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-5 to-login">
+            <p>
+              Already have an account?<span> <a href="loginPage.html">Sign In</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="layer" class="d-none">
+
+      <div id="innerBox">
+
+        <img src="images/3d-fluency-see-no-evil-monkey.png" alt="">
+
+        <p>This User Already Exists Try Another one.. </p>
+
+        <button class="btn coustom-btn">OK</button>
+
+        <i class="fa-solid fa-xmark"></i>
+
+
+      </div>
+
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signUpPage.js"></script>
+  </body>
+</html>

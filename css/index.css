@@ -1,0 +1,230 @@
+body
+{
+    background-color: #F5F5FA;
+}
+
+.navbar .nav-link
+{
+    position: relative;
+    color: #345DCC;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.first-section
+{
+    height: 80vh;
+    margin-top: 60px;
+}
+
+.image-circle
+{
+    /* background-color: #345DCC; */
+    box-shadow: 0 0 0 30px #345DCC;
+
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-circle img
+{
+    padding: 20px;
+    padding-top: 40px;
+    width: 120%;
+    padding-bottom: 60px;
+}
+
+.landing-content p
+{
+
+    color: #345DCC;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.landing-content button
+{
+    background-color: #345DCC;
+    border: solid 0px #345DCC;
+    border-radius: 600px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 90px;
+    margin-top: 40px;
+    transition: all 0.3s;
+
+}
+
+.landing-content button:hover
+{
+    background-color: #1c40a2;
+}
+
+.h-line
+{
+    height: 4px;
+    width: 60%;
+    margin: auto;
+    background-color: #345DCC;
+
+}
+
+.How-it-works
+{
+    margin-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+}
+
+.How-it-works h2
+{
+    font-size: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #345DCC;
+    
+}
+
+
+iframe
+{
+    width: 70%;
+    margin-top: 60px;
+}
+
+.circle-1
+{
+    box-shadow: 0 0 0 90px #345DCC;
+
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50;
+    z-index: -1;
+}
+
+.circle-2
+{
+    box-shadow: 0 0 0 90px #345DCC;
+
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 50;
+    right: 100;
+    z-index: -1;
+    margin-bottom: 110px;
+}
+
+.lets-start-learning
+{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.lets-start-learning h2
+{
+    font-size: 60px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #345DCC;
+    
+}
+
+.lets-start-learning img
+{
+
+    width: 30%;
+    padding-top: 40px;
+}
+
+.lets-start-learning button
+{
+    background-color: #345DCC;
+    border: solid 0px #345DCC;
+    border-radius: 600px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 90px;
+    margin-top: 40px;
+    transition: all 0.3s;
+
+}
+
+.lets-start-learning button:hover
+{
+    background-color: #1c40a2;
+}
+
+footer
+{
+    padding-top: 60px;
+    border-top: solid 2px #345DCC;
+}
+
+.fotter-icons
+{
+    width: 60%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icon
+{
+    height: 20px;
+    width: 20px;
+    background-color: #345DCC;
+    border-radius: 50%;
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+
+.social-icon:hover
+{
+    background-color: #1c40a2;
+}
+
+footer li
+{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+
+    padding-top: 40px;
+
+}
+
+footer li a
+{
+    text-decoration: none;
+    color: #345DCC;
+}
+
+.last-line
+{
+
+    text-align: center;
+    margin-top: 130px;
+    font-size: 18px;
+    color: #345DCC;
+    font-family: 'DM Sans', sans-serif;
+}
+

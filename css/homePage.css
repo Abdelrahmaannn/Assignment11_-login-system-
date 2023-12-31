@@ -1,0 +1,179 @@
+body
+{
+    background-color: #F5F5FA;
+}
+
+.nav-link
+{
+    color: #345DCC;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    position: relative;
+    transition: all 0.8s;
+}
+
+.nav-link::before
+{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #345DCC;
+    width: 0%;
+    left: 10px;
+    bottom: 3px;
+    transition: all 0.8s;
+}
+
+.nav-link:visited
+{
+    color:#345DCC ;
+}
+
+.nav-link:hover
+{
+    color: #0c2b7f;
+    
+}
+.nav-link:hover::before
+{
+    width: 70%;
+}
+
+.home
+{
+    color: #345DCC !important;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.home::before
+{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #345DCC;
+    width: 70%;
+    left: 10px;
+    bottom: 3px;
+
+}
+
+.welcome h1,h2 
+{
+    color: #345DCC ;
+    font-size: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 100px #345DCC;
+}
+
+.learning
+{
+    padding-bottom: 50px;
+
+}
+
+.learning h2
+{
+    font-size: 27px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #2B2B2B;
+    padding-top:50px ;
+}
+
+.learning-box
+{
+    border: solid 2px #345DCC;
+    padding: 50px 0px 50px 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+
+.learning-box h3
+{
+    font-size: 23px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #2B2B2B;
+}
+
+.learning-box h4
+{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #2B2B2B;
+    margin-top: 40px;
+}
+
+.progress
+{
+    margin-top: 30px;
+}
+
+.my-progress-bar
+{
+    background-color: #345DCC;
+}
+
+.learning-img img
+{
+    width: 75%;
+    margin-left: 40px;
+}
+
+.my-btn
+{
+    background-color: #345DCC;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 90px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.my-btn:hover
+{
+    background-color: #0c2b7f;
+    color: white;
+}
+
+.for-content h2
+{
+    color: #2B2B2B;
+    font-size: 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 50px;
+
+
+}
+
+.for-content h3
+{
+    color: #2B2B2B;
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+
+    padding-left: 50px;
+}
+
+#exitBtn
+{
+    background-color: rgb(237, 48, 48);
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    transition: all 0.3s;
+}
+
+#exitBtn:hover
+{
+    background-color: rgb(228, 14, 14);
+}
