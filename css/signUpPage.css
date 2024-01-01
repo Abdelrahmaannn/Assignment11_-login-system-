@@ -200,7 +200,6 @@ label {
 }
 
 @media screen and (max-width: 500px) {
-
   .logo {
     margin-left: 20px;
     width: 90%;
@@ -216,8 +215,7 @@ label {
     margin-right: 30px;
   }
 
-  .hero
-  {
+  .hero {
     width: 100%;
   }
 
@@ -225,21 +223,19 @@ label {
     margin-left: 20px;
   }
 
-
-  
-.for-form h2 {
+  .for-form h2 {
     padding-left: 0px;
   }
-  
+
   .for-form h4 {
     padding-left: 75px;
     padding-top: 10px;
   }
-  
+
   label {
     margin-left: 45px;
   }
-  
+
   .for-form h6 {
     font-size: 11px;
     color: #718096;
@@ -248,7 +244,7 @@ label {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
   }
-  
+
   .for-form input[type="checkbox"] {
     margin-left: 40px;
     margin-top: 20px;
@@ -257,62 +253,55 @@ label {
     font-size: 6px;
     margin-top: 25px;
   }
-  
-  
+
   .for-form .my-btn {
     padding: 10px 90px;
     margin-top: 40px;
   }
-  
-  
+
   .another-way-sign-up {
     margin-top: 30px;
   }
-  
+
   .another-way-sign-up h6 {
     margin-right: 50px;
   }
-  
+
   .icons-sign-up {
     width: 70%;
     margin-top: 30px;
   }
-  
+
   .to-login {
     color: #718096;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
   }
-  
+
   .to-login a {
     text-decoration: none;
     color: #345dcc;
   }
 
-
-  
-#layer {
+  #layer {
     height: 250vh;
   }
-  
+
   #innerBox {
     background-color: white;
     text-align: center;
     width: 90%;
   }
-  
-  
+
   #innerBox img {
     width: 70%;
   }
-  
+
   .coustom-btn {
     background-color: #345dcc;
     padding: 10px 80px;
     border-radius: 600px;
     margin-right: 70px;
   }
-  
-
 }

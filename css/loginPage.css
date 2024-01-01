@@ -1,166 +1,230 @@
-body
-{
-    background-color: #F5F5FA;
+body {
+  background-color: #f5f5fa;
 }
 
+.for-image {
+  padding-bottom: 37px;
+}
 
-.for-image
-{
+.for-image h1 {
+  font-size: 40px;
+  color: #345dcc;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 30px;
+  margin-left: 40px;
+}
 
+.for-image h3 {
+  font-size: 30px;
+  color: #345dcc;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.hero img {
+  filter: drop-shadow(8px 8px 180px #345dcc);
+}
+
+.for-form h2 {
+  font-size: 28px;
+  color: #345dcc;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  padding-left: 40px;
+}
+
+.for-form h4 {
+  font-size: 16px;
+  color: #345dcc;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  padding-left: 45px;
+  padding-top: 15px;
+}
+
+label {
+  margin-left: 80px;
+  padding-bottom: 2px;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+}
+
+.for-form input:focus {
+  box-shadow: 0px 0px 0px 0px;
+  border-color: #3498db;
+}
+
+.my-form {
+  background-color: #edf2f7;
+}
+
+.for-form h6 a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #345dcc;
+  margin-left: 80px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+.for-form .my-btn {
+  background-color: #345dcc;
+  padding: 10px 150px;
+  border-radius: 600px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 60px;
+  transition: all 0.3s;
+}
+
+.for-form .my-btn:hover {
+  background-color: #1c40a2;
+}
+
+.another-way-sign-up {
+  margin-top: 40px;
+}
+
+.another-way-sign-up h6 {
+  color: #718096;
+  font-size: 12px;
+  font-family: "DM Sans", sans-serif;
+  margin-right: 70px;
+}
+
+.icons-sign-up {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 30px;
+  color: #345dcc;
+  box-shadow: 1px 1px 10px rgb(139, 139, 139);
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  background-color: #345dcc;
+  color: white;
+}
+
+.to-login {
+  color: #718096;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+
+.to-login a {
+  text-decoration: none;
+  color: #345dcc;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .for-image {
     padding-bottom: 37px;
-}
+  }
 
-.for-image h1
-{
+  .for-image h1 {
     font-size: 40px;
-    color: #345DCC;
-    font-weight: 600;
-    font-family: 'DM Sans', sans-serif;
-    margin-top: 30px;
-    margin-left: 40px;
-}
+    text-align: center;
+    margin-right: 30px;
+  }
 
-.for-image h3
-{
+  .for-image h3 {
+    text-align: center;
     font-size: 30px;
-    color: #345DCC;
-    font-weight: 600;
-    font-family: 'DM Sans', sans-serif;
-    margin-top: 20px;
-    margin-left: 40px;
-}
+    margin-right: 30px;
+  }
 
-.hero img
-{
-    filter: drop-shadow(8px 8px 180px #345DCC);
-    
-}
+  .hero {
+    width: 100%;
+  }
 
+  .hero img {
+    margin-left: 20px;
+  }
 
+  .text-hello {
+    text-align: center;
+  }
 
-.for-form h2 
-{
+  .for-form h2 {
+    padding-left: 0px;
+  }
 
-    font-size: 28px;
-    color: #345DCC;
-    font-weight: 600;
-    font-family: 'DM Sans', sans-serif;
-    padding-left: 40px;
-}
+  .for-form h4 {
+    padding-right: 40px;
+    padding-top: 10px;
+  }
 
-.for-form h4 
-{
+  label {
+    margin-left: 45px;
+  }
 
-    font-size: 16px;
-    color: #345DCC;
-    font-weight: 400;
-    font-family: 'DM Sans', sans-serif;
-    padding-left: 45px;
-    padding-top: 15px;
-
-}
-
-label
-{
-    margin-left: 80px;
-    padding-bottom: 2px;
-    color: black;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'DM Sans', sans-serif;
-}
-
-.for-form input:focus
-{
-    box-shadow: 0px 0px 0px 0px;
-    border-color: #3498db;
-}
-
-.my-form
-{
-    background-color: #EDF2F7 ;
-    
-}
-
-.for-form h6 a
-{
-    text-decoration: none;
+  .for-form h6 {
     font-size: 11px;
-    color: #345DCC;
-    margin-left: 80px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-}
-
-
-.for-form .my-btn
-{
-    background-color: #345DCC;
-    padding: 10px 150px;
-    border-radius: 600px;
-    color: white;
-    font-family: 'DM Sans', sans-serif;
-    margin-top: 60px;
-    transition: all 0.3s;
-
-}
-
-.for-form .my-btn:hover
-{
-    background-color: #1c40a2;
-}
-
-.another-way-sign-up
-{
-    margin-top: 40px;
-}
-
-.another-way-sign-up h6
-{
     color: #718096;
-    font-size: 12px;
-    font-family: 'DM Sans', sans-serif;
-    margin-right: 70px;
-}
+    margin-left: 45px;
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+  }
 
-.icons-sign-up
-{
-    width: 50%;
-    margin: auto;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-}
+  .for-form input[type="checkbox"] {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .check-box-label {
+    font-size: 6px;
+    margin-top: 25px;
+  }
 
-.icon
-{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: white;
-    font-size: 30px;
-    color: #345DCC;
-    box-shadow: 1px 1px 10px rgb(139, 139, 139);
-    transition: all 0.3s;
-}
+  .for-form .my-btn {
+    padding: 10px 90px;
+    margin-top: 40px;
+  }
 
-.icon:hover
-{
-    background-color: #345DCC;
-    color: white;
-}
+  .another-way-sign-up {
+    margin-top: 30px;
+  }
 
-.to-login
-{
+  .another-way-sign-up h6 {
+    margin-right: 50px;
+  }
+
+  .icons-sign-up {
+    width: 70%;
+    margin-top: 30px;
+  }
+
+  .to-login {
     color: #718096;
     font-size: 14px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 500;
-}
+  }
 
-.to-login a
-{
+  .to-login a {
     text-decoration: none;
-    color: #345DCC;
-
+    color: #345dcc;
+  }
 }
