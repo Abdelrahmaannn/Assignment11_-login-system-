@@ -290,6 +290,7 @@ footer li a {
   footer {
     padding-top: 60px;
     border-top: solid 2px #345dcc;
+    text-align: center;
   }
 
   .logo-icons {
